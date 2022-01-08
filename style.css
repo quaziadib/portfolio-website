@@ -58,8 +58,44 @@ h1{
     color: white;
     padding: 10px 40px;
     font-weight: bold;
-    border-radius: 5px;
+    
 }
 .pro-coder p{
     padding-right: 20%;
+}
+
+.exp-card{
+    box-shadow: 10px 10px 50px gray;
+    margin: 2% 2% 10% 2%;
+    padding: 5% 10%;
+    border-radius: 5px;
+
+}
+
+.exp-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.exp-card h1{
+    font-size: 20px
+    
+}
+
+#apps-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+    border-radius: 5px;
+}
+
+#ml-eng{
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon, tomato);
+    border-image-slice: 1;
+    border-radius: 5px;
+}
+
+footer{
+    text-align: center;
 }
